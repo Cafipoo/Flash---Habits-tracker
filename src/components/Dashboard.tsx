@@ -60,7 +60,7 @@ export const Dashboard: React.FC = () => {
       {/* Content */}
       <div className="max-w-md mx-auto px-4 py-6">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full grid-cols-3 mb-6 bg-card border-2 border-primary/20 p-1">
+          <TabsList className="grid w-full grid-cols-3 mb-6 bg-card border-2 border-primary/20 p-1 h-auto items-stretch">
             <TabsTrigger 
               value="habits" 
               className="data-[state=active]:bg-primary data-[state=active]:text-white"
